@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: "Roboto", 'sans-serif';
 }
 ol, ul {
 	list-style: none;
@@ -105,4 +106,39 @@ header {
     text-decoration: none;
     color: #e5e7eb;
     margin: auto 60px auto 0;
+}
+
+/* MAIN */
+
+main > h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px 0 40px 0;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.section > .sect {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    margin: 0 0 10px 0;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.section2 > p {
+    font-size: 18px;
+    color: #3c3f44d3;
+    text-align: center;
+    width: 170px;
+    margin-bottom: 100px;
 }
