@@ -145,7 +145,7 @@ main > h2 {
 
 .quote {
     background-color: #E5E7EB;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,4 +165,44 @@ main > h2 {
     position: relative;
     top: 30px;
     left: 200px;
+}
+
+.section2 {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect2 {
+    color: white;
+    background-color: #3882F6;
+    height: 9.3rem;
+    width: 65rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect2 > button {
+    height: 38px;
+    width: 140px;
+    font-size: 1em;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.content {
+    margin: 0 230px 0 0;
+    line-height: 1.4;
+}
+.content > h4 {
+    font-weight: bold;
+    font-size: 25px;
+}
+.content > p {
+    font-size: 1.1em;
+    color: #e5e7ebcb
 }
