@@ -167,7 +167,7 @@ main > h2 {
     left: 200px;
 }
 
-.section2 {
+.section3 {
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -176,7 +176,7 @@ main > h2 {
 .sect2 {
     color: white;
     background-color: #3882F6;
-    height: 9.3rem;
+    height: 9.4rem;
     width: 65rem;
     border-radius: 10px;
     display: flex;
@@ -205,4 +205,17 @@ main > h2 {
 .content > p {
     font-size: 1.1em;
     color: #e5e7ebcb
+}
+
+footer {
+    background-color: #1F2937;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > p {
+    color: white;
+    font-size: 18px;
+    font-weight: 340;
 }
