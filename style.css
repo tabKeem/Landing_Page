@@ -115,7 +115,7 @@ main > h2 {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    margin: 50px 0 40px 0;
+    margin: 50px 0 50px 0;
 }
 
 .section {
@@ -141,4 +141,28 @@ main > h2 {
     text-align: center;
     width: 170px;
     margin-bottom: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote > h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 270;
+    font-style: italic;
+    width: 780px;
+}
+.quote > h3 > span {
+    font-size: 25px;
+    font-weight: bold;
+    color: #212f44;
+    font-style: normal;
+    position: relative;
+    top: 30px;
+    left: 200px;
 }
